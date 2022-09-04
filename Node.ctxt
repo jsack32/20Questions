@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Node
+comment0.text=\n\ Stores\ either\ a\ question\ or\ a\ final\ guess.\ Leaf\ nodes\ will\ store\ final\n\ guesses,\ and\ intermediate\ nodes\ hold\ questions.\ Answering\ yes\ or\ no\n\ will\ eventually\ lead\ to\ the\ answers\ in\ the\ leaf\ nodes.\ The\ tree\ expands\n\ learning\ new\ answers,\ input\ by\ users,\ that\ aren't\ in\ the\ tree's\ database.\n\ Answering\ yes\ navigates\ to\ a\ Node's\ right\ child,\ while\ no\ navigates\ to\ a\n\ Node's\ left\ child.\n\n\ @author\ Jesse\ Sack,\ Lifu\ Zhang,\ Tom\ Mitchell\n\ @version\ 0.0.1\n
+comment1.params=i
+comment1.target=Node(java.lang.String)
+comment2.params=i
+comment2.target=void\ setInfo(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ getInfo()
+comment4.params=
+comment4.target=Node\ getRight()
+comment5.params=
+comment5.target=Node\ getLeft()
+comment6.params=p
+comment6.target=void\ setLeft(Node)
+comment7.params=p
+comment7.target=void\ setRight(Node)
+comment8.params=b
+comment8.target=void\ setAnswer(boolean)
+comment9.params=
+comment9.target=boolean\ isAnswer()
+numComments=10

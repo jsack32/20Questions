@@ -1,0 +1,14 @@
+Is it a fire type?
+Is it a grass type?
+Is it yellow?
+%
+Squirtle
+%
+Pikachu
+Is it based on a vegetable?
+%
+Bulbasaur
+%
+Oddish
+%
+Charmander

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Tree20Q
+comment0.text=\n\ Tree20Q\ class\ -\ stores\ nodes\ representing\ the\ questions\ and\ answers\ in\ a\ binary\ tree.\n\n\ @author\ Jesse\ Sack,\ Lifu\ Zhang,\ Tom\ Mitchell\n\ @version\ 0.0.1\n
+comment1.params=
+comment1.target=Tree20Q()
+comment2.params=n\ newAnswer\ newQuestion\ relations
+comment2.target=void\ update(Node,\ java.lang.String,\ java.lang.String,\ boolean)
+comment2.text=\n\ update\ method\ -\ updates\ the\ Tree20Q\ if\ an\ answer\ if\ an\ answer\ choice\ is\ not\n\ in\ a\ tree\n\ \n\ @param\ Node\ n\ -\ the\ current\ wrong\ answer\ node\n\ @param\ newAnswer\ -\ the\ new\ answer\ that\ the\ user\ has\ in\ mind\n\ @param\ newQuestion\ -\ a\ question\ input\ by\ the\ user\ to\ distinguish\ newAnswer\ from\ the\ original\ answer\n\ @param\ relations\ -\ relationship\ between\ newAnswer\ and\ newQuestion\n
+comment3.params=
+comment3.target=void\ run()
+comment3.text=\n\ run\ method\ -\ a\ runner\ method\ to\ play\ 20\ questions\n
+comment4.params=
+comment4.target=void\ overwrite()
+comment4.text=\n\ overwrite\ method\ -\ overwrite\ and\ save\ the\ tree\ in\ a\ file\n\ by\ calling\ a\ recursive\ preorder\ traversal\ of\ the\ tree\n
+comment5.params=p\ writer
+comment5.target=void\ overwrite(Node,\ java.io.PrintWriter)
+comment6.params=
+comment6.target=void\ rebuild()
+comment6.text=\n\ rebuild\ method\ -\ rebuilds\ a\ Tree20Q\ saved\ from\ a\ previous\ game\n
+comment7.params=s
+comment7.target=Node\ rebuild(java.util.Scanner)
+numComments=8
